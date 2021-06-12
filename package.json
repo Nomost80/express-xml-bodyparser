@@ -1,6 +1,6 @@
 {
-  "name": "express-xml-bodyparser",
-  "version": "0.3.0",
+  "name": "@nomost80/express-xml-bodyparser",
+  "version": "0.1.0",
   "description": "Simple XML body parser connect/express middleware",
   "author": "Matthias Adler <macedigital@gmail.com> (http://matthiasadler.info/)",
   "contributors": [
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:macedigital/express-xml-bodyparser.git"
+    "url": "git+ssh://git@github.com/macedigital/express-xml-bodyparser.git"
   },
   "keywords": [
     "xml",
@@ -46,6 +46,7 @@
     "node": ">=0.10"
   },
   "directories": {
+    "lib": "lib",
     "test": "test"
   },
   "files": [
@@ -53,6 +54,5 @@
     "README.md",
     "index.js",
     "lib/"
-  ],
-  "readmeFilename": "README.md"
+  ]
 }
